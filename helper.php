@@ -4,6 +4,6 @@
 function view($template, $vars = array())
 {
 	extract($vars);
-	require "$template.php";
+	require "viewa/$template.tpl.php";
 }
 ?>

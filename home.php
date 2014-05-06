@@ -2,11 +2,13 @@
 
 require 'config.php';
 
-$saludo = "hola mundo";
+$saludo = "Aprende PHP con";
+$titulo = 'Cursos Mejorando.la';
+
 $confidencial = "esto es privado";
 
 require 'helper.php';
 
 // llamamos a la función
-view('view', compact( 'saludo', 'titulo') );
+view('homeView', compact('saludo', 'titulo') );
 ?>
