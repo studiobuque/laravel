@@ -1,14 +1,12 @@
 <?php
 
+require 'config.php';
+
 $saludo = "hola mundo";
 $confidencial = "esto es privado";
 
-// declraramos la función
-function view()
-{
-	require "view.php";
-}
+require 'helper.php';
 
 // llamamos a la función
-view();
+view('view', compact( 'saludo', 'titulo') );
 ?>

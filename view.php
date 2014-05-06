@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title><?= $titulo; ?></title>
 </head>
 <body>
-	<h1>Mejorando.la</h1>
-	<strong><?= $saludo; ?></strong>
+	<h1><?= $titulo; ?></h1>
+	<strong><?= $vars['saludo']; ?></strong>
 
 </body>
 </html>
-<?= $confidencial;?>
+<? //= $confidencial;?>
