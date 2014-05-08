@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?= $titulo; ?></title>
+	<title>Cursos Mejorando.la</title>
 </head>
 <body>
-	<h1><?= $titulo; ?></h1>
-	<strong><?= $vars['saludo']; ?></strong>
-
+	<h1>Contactos :: Cursos Mejorando.la</h1>
+	contacto@studiobuque.com
 </body>
 </html>
 
